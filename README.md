@@ -1,28 +1,69 @@
-<h1 align="center"><g-emoji class="g-emoji" alias="hear_no_evil" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f649.png">🙉</g-emoji> Your Tutor</h1>
-<p align="center">A simple learning platform</p>
-<p align="center">
-<a href="https://github.com/AngryFennec/tutorro/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/AngryFennec/tutorro"></a>
-<a href="https://github.com/AngryFennec/tutorro/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/AngryFennec/tutorro"></a>
-<a href="https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FAngryFennec%2Ftutorro"><img alt="Twitter" src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2FAngryFennec%2Ftutorro"></a>
-</p>
+# tutor
 
-<h2>Technology stack</h2>
-<h3>Frontend</h3>
-Vue.js (https://ru.vuejs.org/)<br>
-Vue Material (https://www.creative-tim.com/vuematerial/components/app)
+## Build Setup
 
-<h3>Realization</h3>
-Vue.js (https://ru.vuejs.org/)<br>
-TypeScript (https://www.typescriptlang.org/)
+```bash
+# install dependencies
+$ npm install
 
-<h3>Database</h3>
-MongoDB (https://www.mongodb.com/)
+# serve with hot reload at localhost:3000
+$ npm run dev
 
-<h3>Backend</h3>
-Laravel (https://laravel.com/)
+# build for production and launch server
+$ npm run build
+$ npm run start
 
-<h3>SSR</h3>
-Nuxt.js (https://nuxtjs.org/)
+# generate static project
+$ npm run generate
+```
 
-<h2>Project layout</h2>
-Project on Figma (https://www.figma.com/file/vLPiUJwwvz1LkwhH8WfKf2/%D0%A0%D0%B5%D0%BF%D0%B5%D1%82%D0%B8%D1%82%D0%BE%D1%80?node-id=4%3A252)
+For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+
+## Special Directories
+
+You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+
+### `assets`
+
+The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+
+### `components`
+
+The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+
+### `layouts`
+
+Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+
+
+### `pages`
+
+This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
+
+### `plugins`
+
+The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
+
+### `static`
+
+This directory contains your static files. Each file inside this directory is mapped to `/`.
+
+Example: `/static/robots.txt` is mapped as `/robots.txt`.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
+
+### `store`
+
+This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
+
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
