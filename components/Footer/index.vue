@@ -4,7 +4,7 @@
       class='pa-4'
       cols='10'
     >
-      {{ new Date().getFullYear() }} — <strong>Tutor</strong>
+      {{ dateFooter }} — <strong>Tutor</strong>
     </v-col>
     <v-col>
           <span>
@@ -13,3 +13,6 @@
     </v-col>
   </v-footer>
 </template>
+
+<script lang='ts' src='./Footer.ts'/>
+<style lang='scss' src='./Footer.scss'/>

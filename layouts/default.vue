@@ -53,8 +53,8 @@
 </template>
 
 <script>
-import Footer from '~/components/Footer'
-import Header from '~/components/Header'
+import Footer from '~/components/Footer/index'
+import Header from '~/components/Header/index'
 export default {
   components: { Header, Footer },
   data () {

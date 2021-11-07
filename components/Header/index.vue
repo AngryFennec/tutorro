@@ -22,16 +22,9 @@
         </v-avatar>
         <strong class='hidden-sm-and-down pl-2'>Ivanov Ivan</strong>
       </v-col>
-
     </v-row>
   </v-container>
-
 </template>
 
-<script>
-export default {
-  data() {
-
-  }
-}
-</script>
+<script lang='ts' src='./Header.ts'/>
+<style lang='scss' src='./Header.scss'/>
