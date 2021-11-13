@@ -25,6 +25,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    {src: '~/plugins/vuelidate.js', mode: 'client'}
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -36,7 +37,12 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
+    '@nuxtjs/router',
   ],
+
+  routerModule: {
+    fileName: 'router.ts',
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
