@@ -57,6 +57,9 @@ import Footer from '~/components/Footer/index'
 import Header from '~/components/Header/index'
 export default {
   components: { Header, Footer },
+  created() {
+    this.$store.dispatch('loadTeachersList')
+  },
   data () {
     return {
       clipped: false,
