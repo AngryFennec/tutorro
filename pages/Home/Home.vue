@@ -8,20 +8,17 @@
         cols='12'
       >
         <h1>Авторизуйтесь, для начала работы</h1>
+        <p>
+          <NuxtLink to="{name: 'login'}">Ещё нет аккаунта?</NuxtLink>
+        </p>
       </v-col>
       <v-col>
         <Form />
-
       </v-col>
     </v-row>
   </v-main>
 </template>
 
-<script>
-import Form from '~/components/Form/index'
 
-export default {
-  components: { Form },
-  layout: 'index'
-}
-</script>
+<script lang='ts' src='./Home.ts' />
+<style lang='scss' src='./Home.scss' />

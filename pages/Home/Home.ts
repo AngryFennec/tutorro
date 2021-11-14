@@ -1,9 +1,10 @@
 import {Component, Vue} from "nuxt-property-decorator";
-import Example from "~/components/Example/index.vue";
+import Form from "~/components/Form/index.vue";
 
 @Component({
   components: {
-    Example
+    Form
   },
+  layout: 'index'
 })
 export default class Home extends Vue {}

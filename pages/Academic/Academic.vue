@@ -167,3 +167,6 @@
     </v-row>
   </v-container>
 </template>
+
+<script lang='ts' src='./Academic.ts' />
+<style lang='scss' src='./Academic.scss' />
