@@ -3,9 +3,8 @@
 
     <v-list>
       <v-list-item
-        v-for='(item, i) in items'
-        :key='i'
-        :to='item.to'
+        v-for='student in students'
+        :key='`student-${student.id}`'
       >
         <v-list-item-content>
           <v-row
@@ -18,25 +17,25 @@
                   size='40'>
                   <v-img
                     alt='Avatar'
-                    src='https://cdn.vuetifyjs.com/images/john.png'></v-img>
+                    src='https://cdn.pixabay.com/photo/2016/11/18/23/38/child-1837375_1280.png'></v-img>
                 </v-avatar>
 
-                <strong class='pl-4'>Ivanov Ivan</strong>
+                <strong class='pl-4'>{{ student.name }}</strong>
 
                 <v-card-title class='text-h5'>
-                  {{ title }}
+                  {{ student.title }}
                 </v-card-title>
 
-                <v-card-subtitle>10 класс</v-card-subtitle>
+                <v-card-subtitle>{{ student.class }}</v-card-subtitle>
 
                 <p class='pl-4'>Прогресс ученика</p>
 
                 <v-progress-linear
-                  v-model='knowledge'
+                  v-model='student.progress'
                   height='25'
                   class='mb-4'
                 >
-                  <strong>{{ Math.ceil(knowledge) }}%</strong>
+                  <strong>{{ Math.ceil(student.progress) }}%</strong>
                 </v-progress-linear>
 
                 <v-card-actions>

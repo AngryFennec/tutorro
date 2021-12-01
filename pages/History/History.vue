@@ -2,8 +2,8 @@
   <v-container>
     <v-list>
       <v-list-item
-        v-for='(item, i) in items'
-        :key='i'
+        v-for='item in last'
+        :key='`item-${item.id}`'
         :to='item.to'
 
 
@@ -17,10 +17,10 @@
               >
 
                 <v-card-title class='text-h5'>
-                  {{ title }}
+                  {{ item.title }}
                 </v-card-title>
 
-                <v-card-subtitle>Кинематика точки и твердого тела</v-card-subtitle>
+                <v-card-subtitle>{{ item.subtitle }}</v-card-subtitle>
 
                 <v-card-actions>
                   <v-btn
