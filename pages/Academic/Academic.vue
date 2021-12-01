@@ -1,23 +1,155 @@
 <template>
   <v-container>
     <v-row
-      align='center'
-      justify='center'
-    >
-      <v-col cols='12' sm='8' md='6'>
-        <v-card v-for='academic in academics'
-                :key='`academic-${academic.id}`'
-                class='mx-auto'
-                max-width='344'
+      align='center'>
+      <v-col>
+        <v-card
+          class='mx-auto'
+          max-width='344'
         >
           <v-card-text>
-            <div>Класс: {{ academic.classes }}</div>
+            <div>Класс: 6 - 11</div>
             <p class='text-h4 text--primary'>
-              {{ academic.lesson }}
+              Физика
             </p>
 
             <div class='text--primary'>
-              Общее количество уроков: {{ academic.hours }}
+              Общее количество уроков: 167
+            </div>
+          </v-card-text>
+          <v-card-actions>
+            <v-btn
+              block
+              color='primary'
+              outlined
+              rounded
+            >
+              Перейти в предмет
+            </v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-col>
+      <v-col>
+        <v-card
+          class='mx-auto'
+          max-width='344'
+        >
+          <v-card-text>
+            <div>Класс: 6 - 11</div>
+            <p class='text-h4 text--primary'>
+              Математика
+            </p>
+
+            <div class='text--primary'>
+              Общее количество уроков: 167
+            </div>
+          </v-card-text>
+          <v-card-actions>
+            <v-btn
+              block
+              color='primary'
+              outlined
+              rounded
+            >
+              Перейти в предмет
+            </v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-col>
+      <v-col>
+        <v-card
+          class='mx-auto'
+          max-width='344'
+        >
+          <v-card-text>
+            <div>Класс: 6 - 11</div>
+            <p class='text-h4 text--primary'>
+              Геометрия
+            </p>
+
+            <div class='text--primary'>
+              Общее количество уроков: 167
+            </div>
+          </v-card-text>
+          <v-card-actions>
+            <v-btn
+              block
+              color='primary'
+              outlined
+              rounded
+            >
+              Перейти в предмет
+            </v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-col>
+      <v-col>
+        <v-card
+          class='mx-auto'
+          max-width='344'
+        >
+          <v-card-text>
+            <div>Класс: 6 - 11</div>
+            <p class='text-h4 text--primary'>
+              Информатика
+            </p>
+
+            <div class='text--primary'>
+              Общее количество уроков: 167
+            </div>
+          </v-card-text>
+          <v-card-actions>
+            <v-btn
+              block
+              color='primary'
+              outlined
+              rounded
+            >
+              Перейти в предмет
+            </v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-col>
+      <v-col>
+        <v-card
+          class='mx-auto'
+          max-width='344'
+        >
+          <v-card-text>
+            <div>Класс: 6 - 11</div>
+            <p class='text-h4 text--primary'>
+              Русский язык
+            </p>
+
+            <div class='text--primary'>
+              Общее количество уроков: 167
+            </div>
+          </v-card-text>
+          <v-card-actions>
+            <v-btn
+              block
+              color='primary'
+              outlined
+              rounded
+            >
+              Перейти в предмет
+            </v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-col>
+      <v-col>
+        <v-card
+          class='mx-auto'
+          max-width='344'
+        >
+          <v-card-text>
+            <div>Класс: 6 - 11</div>
+            <p class='text-h4 text--primary'>
+              English
+            </p>
+
+            <div class='text--primary'>
+              Общее количество уроков: 167
             </div>
           </v-card-text>
           <v-card-actions>
